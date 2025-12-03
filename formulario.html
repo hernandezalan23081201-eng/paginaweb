@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Califica mi página web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="indice.html">INDICE</a>
+      <a href="conclusion.html">CONCLUSION</a>
+      <a href="opinion.html">OPINION DEL CURSO</a>
+      <a href="formulario.html">CALIFICA LA PAGINA WEB</a>
+    </nav>
+</header>
+
+<section class="about_section layout_padding">
+    <div class="contenido">
+        <h1 align="center">Califica mi página web</h1>
+
+        <form action="" method="post" class="formulario">
+
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre" required><br><br>
+
+            <label>Calificación (1 a 10):</label><br>
+            <input type="number" name="calificacion" min="1" max="10" required><br><br>
+
+            <label>¿Qué te pareció la página?</label><br>
+            <textarea name="comentarios" rows="5" placeholder="Escribe tu opinión aquí..." required></textarea><br><br>
+
+            <label>¿Recomendarías esta página?</label><br>
+            <input type="radio" name="recomienda" value="Si" required> Sí<br>
+            <input type="radio" name="recomienda" value="No" required> No<br><br>
+
+            <button type="submit">Enviar calificación</button>
+        </form>
+
+    </div>
+</section>
+
+</body>
+</html>
